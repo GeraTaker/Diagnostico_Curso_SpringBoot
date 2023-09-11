@@ -1,5 +1,5 @@
 -- COngiguracion de la base de datos
- CREATE DATABASE diagnostico;
+CREATE DATABASE diagnostico;
 CREATE USER 'diagnostico'@'localhost' IDENTIFIED BY 'Snd873hdbyuwd287hdb82338';
 GRANT ALL PRIVILEGES ON nombre_de_tu_base_de_datos.* TO 'diagnostico'@'localhost';
 FLUSH PRIVILEGES;
